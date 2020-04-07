@@ -1,10 +1,8 @@
 import sys
 
 c = 1
-b = '*'
-
-print (b)
-while c<7 :
-    b = b,'*'
-    print (b,)
+while c<=7 :
+    for i in range(0,c):
+        print ('*', end='')
+    print(end='\n')
     c = c+1
